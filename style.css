@@ -1,0 +1,153 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+}
+
+#title{
+    font-size: 50px;
+    font-family: poppins;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    letter-spacing: 5px;
+    display: inline-flex;
+}
+
+nav,ul,li{
+    display: inline;
+}
+ul{
+    padding-left: 30%;
+    margin-bottom: 10px;
+    
+
+}
+li{
+    padding-right: 60px;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+li:hover{
+    cursor: pointer;
+    color:lightskyblue;
+}
+
+h1:hover{
+    cursor: pointer;
+    color:blueviolet;
+}
+
+h2:hover{
+    cursor: pointer;
+    color:rebeccapurple
+}
+
+.line{
+    border: 1px solid black;
+}
+
+#slogan{
+    text-align: center;
+    word-wrap: wrap;
+    font-size: 50px;
+    font-family: poppins;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+    padding: 20px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}
+
+
+
+#img1{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#title2{
+    font-family:'Gill Sans';
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-style: oblique;
+
+}
+
+.face{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.face div{
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    text-align: center;  
+}
+
+.face div p{
+    font-size: 20px;
+    font-family: monospace;
+
+}
+
+.face div img{
+    border-radius: 10px;
+}
+
+.face div img:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+ .red{
+    color: rgb(13, 237, 35);
+}
+
+#blue{
+    color: rgb(13, 62, 237);
+}
+
+.yellow{
+    color: rgb(255, 208, 0);
+}
+
+.bottom p{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Gill Sans';
+    font-style: oblique;
+}
+.bottom p:hover{
+    color: blueviolet;
+}
+
+.images {
+    justify-content: center;
+    display: flex;
+    gap: 150px;
+    margin-top: 30px;
+}
+
