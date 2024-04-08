@@ -98,6 +98,7 @@ h2:hover{
     width: 300px;
     margin: 30px;
     text-align: center;  
+    margin-bottom: 30px;
 }
 
 .face div p{
@@ -149,5 +150,39 @@ html{
     display: flex;
     gap: 150px;
     margin-top: 30px;
+}
+
+#button{
+
+    margin-top: 50px;
+ 
+    display: flex;
+    justify-content: center;
+
+
+
+   
+
+
+}
+
+#button p{
+    font-size: 20px;
+    font-family: monospace;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    border: 3px solid black;
+    
+
+} 
+#button a {
+    text-decoration: none;
+} 
+
+#button p:hover{
+    background-color: gold;
+
 }
 
