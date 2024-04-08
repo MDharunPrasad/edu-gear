@@ -138,3 +138,7 @@ margin-top: 50px;
     border: 4px solid greenyellow;
 
 }
+
+html{
+    scroll-behavior: smooth;
+}
