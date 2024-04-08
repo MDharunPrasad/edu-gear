@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+    
+    
+}
+
+.start{
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 50%;
+    font-weight: 1000;
+    font-size: 150px;
+    font-family: Integralcf,Arial,sans-serif;
+    color: white;
+
+    
+}
+
+.one{
+    display: flex;
+}
+
+.img1{
+    margin:30px;
+
+}
+
+.img1 img{
+    border-radius: 20px;
+}
+
+.text1{
+    font-size: 50px;
+    font-family: Integralcf,Arial,sans-serif;
+    font-weight: 900;
+    margin: 30px;
+    word-wrap: wrap;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+.text1 h1{
+   display: inline;
+   
+}
+
+span{
+    color: blueviolet;
+}
+
+
+.apple{
+    display: flex;
+}
+
+.img2{
+    margin: 30px;
+}
+.img2 img{
+    border-radius: 20px;
+    
+}
+
+.text2{
+    margin: 30px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.exp{
+    
+  
+margin-top: 50px;
+
+}
+.text2 p{
+    height:fit-content;
+    width: fit-content;
+    background-color:black;
+    padding: 20px;
+    border-radius: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:white;
+    border: 4px solid rgb(234, 65, 65);
+
+}
+
+.img3{
+
+    margin:30px;
+     
+}
+
+.img3 img{
+    border: 8px solid black;
+    border-radius: 30px;
+}
+
+.spotify{
+    display: flex;
+}
+
+.text3{
+    margin: 30px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.text3 p{
+    height:fit-content;
+    width: fit-content;
+    background-color:black;
+    padding: 20px;
+    border-radius: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:white;
+    border: 4px solid greenyellow;
+
+}
