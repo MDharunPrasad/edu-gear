@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+}
+
+header img{
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+li{
+    display: inline;
+    font-family: poppins;
+    margin: 30px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+ul{
+    margin-top: 60px;
+  margin-left: 40%;
+
+}
+
+section {
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+section div p{
+    font-size: 90px;
+    font-weight: 1000;
+    font-family: Integralcf,Arial,sans-serif;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    color: blueviolet;
+   line-height: 100px;
+}
+
+.line{
+    border: 2px solid blueviolet;
+    margin-top: 20px;
+}
+
+.sec1{
+    display: flex;
+
+}
+
+.photo img{
+    height: 400px;
+    width: 500px;
+    margin: 40px;
+}
+
+.text{
+    margin: 40px;
+}
+
+.text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 1000;
+    color:cornflowerblue;
+}
+
+.text p{
+    font-size: 32px;
+    font-family:poppins;
+    font-variant: small-caps;
+    margin-top: 40px;
+
+}
+
+#title{
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: Integralcf,Arial,sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    color: cornflowerblue;
+    margin-left:50px ;
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 200px;
+   
+    
+}
+
+.imgs img{
+    border: 4px solid black;
+    border-radius: 10px;
+
+}
+
+
+
+.one1 {
+
+  font-size: 20px;
+  word-wrap: wrap;
+  width: 300px;
+  font-family: poppins;
+  margin-top: 10px;
+}
+
+
+.bottom p{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Gill Sans';
+    font-style: oblique;
+}
+.bottom p:hover{
+    color: blueviolet;
+}
+
+.images {
+    justify-content: center;
+    display: flex;
+    gap: 150px;
+    margin-top: 30px;
+}
+
+#button{
+
+    margin-top: 50px;
+ 
+    display: flex;
+    justify-content: center;
+
+
+
+   
+
+
+}
+
+#button p{
+    font-size: 20px;
+    font-family: monospace;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    border: 3px solid black;
+    
+
+} 
+#button a {
+    text-decoration: none;
+} 
+
+#button p:hover{
+    background-color: gold;
+
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
