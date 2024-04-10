@@ -157,3 +157,16 @@ font-variant: small-caps;
     border-radius: 10px;
     background-image: url(vector/1.jpg);
 }
+
+.images a{
+    background-color: white;
+    margin-right: 0px;
+    margin: 100px;
+
+
+}
+
+.images{
+    text-align: center;
+margin-top: 40px;
+}
