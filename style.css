@@ -12,7 +12,7 @@
     font-family: poppins;
     padding-left: 10px;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 10px;
     letter-spacing: 5px;
     display: inline-flex;
 }
@@ -27,9 +27,22 @@ ul{
 
 }
 li{
-    padding-right: 50px;
+    padding-right: 30px;
     font-family: poppins;
     font-size: 20px;
+}
+
+li a{
+    background-color:white;
+    border-radius: 5px;
+    padding: 5px;
+    height: 60px;
+    width: 100%;
+    border:3px solid violet
+}
+
+li a:hover{
+    background-color: violet;
 }
 
 li:hover{
@@ -48,6 +61,7 @@ h2:hover{
 }
 
 .line{
+    
     border: 1px solid black;
 }
 
