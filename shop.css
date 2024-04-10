@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.header{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.title{
+    font-size: 120px;
+    font-weight: 1000;
+    font-variant: small-caps;
+padding-left: 110px;
+    font-family: Integralcf,Arial,sans-serif;
+}
+
+.cart img{
+    height: 200px;
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: 5px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 70px;
+    font-family: Integralcf,Arial,sans-serif;
+font-weight: 500;
+font-size: 20px;
+  
+}
+
+a:hover{
+    background-color: black;
+    color:white;
+    
+}
+
+.logo img:hover{
+    border: 8px dotted blueviolet;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    display: inline;
+   
+
+}
+
+nav{
+    display: flex;
+}
+
+.words{
+    display: inline;
+    margin-top: 70px;
+margin-left: 45%;
+
+}
+
+span{
+    color: blueviolet;
+}
+
+.line{
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  
+}
+
+.item1{
+
+    margin: 30px;
+}
+
+.text1 p{
+    font-size: 30px;
+margin-top: 25px;
+    font-family: Integralcf,Arial,sans-serif;
+font-weight: 500;
+}
+
+ .light{
+background-color: lightseagreen;
+color: black;
+height: fit-content;
+width: fit-content;
+border-radius: 5px;
+padding: 8px;
+font-variant: small-caps;
+
+
+}
+
+ .heavy{
+    background-color: lightcoral;
+    color: black;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 8px;
+    font-variant: small-caps;
+    
+    
+    }
+
+.light1{
+    background-color: white;
+    border: 2px solid black;
+    font-variant: small-caps;
+    color: black;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.heavy1{
+    background-color: white;
+    border: 2px solid black;
+    font-variant: small-caps;
+    color: black;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.items img:hover{
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+    background-image: url(vector/1.jpg);
+}
