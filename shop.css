@@ -170,3 +170,7 @@ font-variant: small-caps;
     text-align: center;
 margin-top: 40px;
 }
+
+html{
+    scroll-behavior: smooth;
+}
