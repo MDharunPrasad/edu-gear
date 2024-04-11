@@ -14,7 +14,7 @@
 
     <nav>
      
-        <h1 id="title">EDU-GEAR</h1>   
+        <h1 id="title" onmouseover="animation()" onmouseout="reanimation()">EDUGEAR</h1>   
      
         <ul>
             
@@ -112,7 +112,24 @@
 
     </div>
 
+
+<script>
+
+function animation(){
+    var a = document.getElementById("title");
+    a.textContent= "EDU-GEAR";
+    
+}
+
+function reanimation(){
+    var b = document.getElementById("title");
+    b.textContent = "EDUGEAR";
+}
+
+</script>
  
+
+
    
    
         
