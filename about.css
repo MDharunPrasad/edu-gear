@@ -177,3 +177,9 @@ section div p{
 html{
     scroll-behavior: smooth;
 }
+
+header img:hover{
+    border: 6px solid blueviolet;
+    cursor: pointer;
+}
+
