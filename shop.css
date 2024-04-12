@@ -156,6 +156,7 @@ font-variant: small-caps;
     border: 2px solid rebeccapurple;
     border-radius: 10px;
     background-image: url(vector/1.jpg);
+    
 }
 
 .images a{
@@ -169,8 +170,11 @@ font-variant: small-caps;
 .images{
     text-align: center;
 margin-top: 40px;
+
 }
+
 
 html{
     scroll-behavior: smooth;
 }
+
